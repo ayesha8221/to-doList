@@ -9,6 +9,11 @@ ul li {
     list-style:none;
 }
 
+ul#display{
+    display: flex;
+    justify-content:center;
+}
+
 .toDo{
     width: 33%;
     border: solid rgb(228, 147, 26);
