@@ -9,10 +9,6 @@ ul li {
     list-style:none;
 }
 
-div ul {
-    /* border: solid black; */
-}
-
 .toDo{
     width: 33%;
     border: solid rgb(228, 147, 26);
@@ -35,4 +31,9 @@ button.delete:hover{
     /* border-radius: 100%; */
     background-color: rgb(224, 115, 115);
 }
+
+input#check, button {
+    /* display: flex; */
+}
+
 
