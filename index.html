@@ -8,14 +8,20 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <h3>To-Do List</h3> -->
+    <div class="toDo">
+    <h3> My To-Do List App</h3>
     <button onclick="sort()">Sorting</button>
     <input type="text" id="todo" value="">
     <button onclick="add()">Add</button>
     <h3>To-Do</h3>
-    <ul id="display">
-        <li><input type="checkbox" id="check" name="vehicle1" value="Bike"><label></label></li>
+    <div>
+        <ul id="display">
+        <li><input type="checkbox" id="myCheck">Task 1<button class="delete" onclick="del()">🔴</button></li>
     </ul>
+    <br>
+</div>
+</div>
+    
     <script src="script/index.js"></script>
 </body>
 </html>
